@@ -1,6 +1,6 @@
 import Container from "@/shared/Container";
 import { Abel } from "next/font/google";
-import CardDealImg from "@/public/CardDealImg.png";
+import CardDealImg from "@/public/assets/CardDealImg.png";
 import Image from "next/image";
 const abel = Abel({
   subsets: ["latin"],

@@ -1,9 +1,9 @@
 import Container from "@/shared/Container";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import Img1 from "@/public/TestimonialsImg1.png";
-import Img2 from "@/public/TestimonialsImg2.png";
-import Img3 from "@/public/TestimonialsImg3.png";
+import Img1 from "@/public/assets/TestimonialsImg1.png";
+import Img2 from "@/public/assets/TestimonialsImg2.png";
+import Img3 from "@/public/assets/TestimonialsImg3.png";
 
 interface TestimonialCardProps {
   img: string | StaticImageData;

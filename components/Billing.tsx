@@ -1,6 +1,6 @@
 import Container from "@/shared/Container";
 import Image from "next/image";
-import BillingImage from "@/public/BillingImage.png";
+import BillingImage from "@/public/assets/BillingImage.png";
 import DownloadNowButtons from "./DownloadNowButtons";
 const Billing = () => {
   return (

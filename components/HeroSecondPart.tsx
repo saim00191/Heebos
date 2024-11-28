@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mainImage from "@/public/MainImage.png";
+import mainImage from "@/public/assets/MainImage.png";
 
 const HeroSecondPart = () => {
   return (
