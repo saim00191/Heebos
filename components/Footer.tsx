@@ -19,8 +19,8 @@ const Footer = () => {
 
   return (
     <Container className="py-8 bg-[#0B0A0c]/60 w-full">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="space-y-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="space-y-4 lg:col-span-2 col-span-1">
           <div className="flex items-center space-x-2">
             <span className="w-[72.14px] h-[72.14px]">
               <svg
@@ -54,8 +54,8 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="space-y-4">
-          <h2 className="font-medium text-[18px] text-white">Useful Links</h2>
+        <div className="space-y-4 lg:-ml-14">
+          <h2 className="font-medium text-[18px] text-white ">Useful Links</h2>
           <ul className="space-y-2">
             {useFullLinks.map((item, index) => (
               <li
@@ -68,7 +68,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="space-y-4">
-          <h2 className="font-medium text-[18px] text-white">Useful Links</h2>
+          <h2 className="font-medium text-[18px] text-white">Community</h2>
           <ul className="space-y-2">
             {CommunityLinks.map((item, index) => (
               <li
@@ -81,7 +81,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="space-y-4">
-          <h2 className="font-medium text-[18px] text-white">Useful Links</h2>
+          <h2 className="font-medium text-[18px] text-white">Our Partners</h2>
           <ul className="space-y-2">
             {OurPartnersLinks.map((item, index) => (
               <li
