@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`${poppins.className} antialiased`}
       >
         <div className="bg-[#00040f] ">
-          <Container>
+          <Container >
 
           {children}
           </Container>
